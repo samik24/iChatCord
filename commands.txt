@@ -1,0 +1,15 @@
+tough .gitignore
+git config --global user.name Samik
+git config --global user.email "2005605@kiit.ac.in"
+git init
+git add .
+(STAGING AREA)
+
+git commit -m "Initial Commit"
+git status 
+run command : ssh-keygen -t ed25519 -C "2005605@kiit.ac.in"
+tail <path to id_rsa.pub> (Add this key to your github account)
+git remote add origin <ssh url.git>
+git push origin master 
+
+
